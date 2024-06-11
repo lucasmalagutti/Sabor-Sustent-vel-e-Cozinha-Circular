@@ -7,6 +7,10 @@
 
 }
 
+.card-largura{
+    max-width: 18rem;
+}
+
 .imagem-carrosel-dois{
     object-fit: cover;
     /*object-position: 0 80%;*/
@@ -16,4 +20,28 @@
 
 .fonte-titulo{
     font-family: "Pacifico", cursive;
+}
+
+.navbar-nav a{
+    color: darkred;
+}
+
+.texto-cor-especial{
+    color: darkred ;
+}
+
+.fundo-cor-especial{
+    background-color: darkred;
+    color:white;
+}
+
+.borda-cor-especial{
+    border-color: darkred;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    
+    height: 200px;
+
 }
