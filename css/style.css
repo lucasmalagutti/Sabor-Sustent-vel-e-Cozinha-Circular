@@ -45,3 +45,20 @@
     height: 200px;
 
 }
+
+.posiciona-botao-esquerda {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;   
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .btn {
+    margin-top: auto;
+    align-self: flex-start;  
+  }

@@ -32,9 +32,6 @@
             <a class="nav-link" href="#">iníco <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">receitas</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#">quem somos</a>
           </li>
           <li class="nav-item">
@@ -100,7 +97,8 @@
             <h5 class="card-title">Sopa de Talos e Folhas</h5>
             <p class="card-text">Use talos de vegetais, folhas de cenoura, beterraba ou couve que normalmente são
               descartados.</p>
-            <a href="#" class="btn fundo-cor-especial">Veja a receita</a>
+            <a href="#" class="btn fundo-cor-especial" id="openModalSopa">Veja a
+              receita</a>
           </div>
         </article>
 
@@ -110,7 +108,7 @@
           <div class="card-body">
             <h5 class="card-title">Tortilha de Casca de Legumes</h5>
             <p class="card-text">Reaproveite cascas de abóbora, batata, cenoura ou chuchu, que são ricas em fibras.</p>
-            <a href="#" class="btn fundo-cor-especial">Veja a receita</a>
+            <a href="#" class="btn fundo-cor-especial" id="openModalTortilha">Veja a receita</a>
           </div>
         </article>
 
@@ -120,7 +118,7 @@
           <div class="card-body">
             <h5 class="card-title">Salada de Sobras de Grãos</h5>
             <p class="card-text">Aproveite sobras de arroz, quinoa ou feijão para preparar uma salada nutritiva.</p>
-            <a href="#" class="btn fundo-cor-especial">Veja a receita</a>
+            <a href="#" class="btn fundo-cor-especial" id="openModalSalada">Veja a receita</a>
           </div>
         </article>
 
@@ -130,18 +128,18 @@
           <div class="card-body">
             <h5 class="card-title">Bolinho de Pão Amanhecido</h5>
             <p class="card-text">Transforme pães velhos em um lanche delicioso e econômico.</p>
-            <a href="#" class="btn fundo-cor-especial">Veja a receita</a>
+            <a href="#" class="btn fundo-cor-especial" id="openModalBolinho">Veja a receita</a>
           </div>
         </article>
 
-        <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+        <!-- <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
           <img src="img/fruta-assada-com-mel-e-lima.jpg" class="card-img-top card-posicao-imagem"
             alt="frutas assadas dentro de uma assadeira, vista de cima">
           <div class="card-body">
             <h5 class="card-title">Frutas Assadas com Canela</h5>
             <p class="card-text">Aproveite frutas que estão muito maduras, como maçã, banana ou pera, para fazer uma
               sobremesa saudável.</p>
-            <a href="#" class="btn fundo-cor-especial">Veja a receita</a>
+            <a href="#" class="btn fundo-cor-especial" id="openModalFrutas">Veja a receita</a>
           </div>
         </article>
 
@@ -152,9 +150,9 @@
             <h5 class="card-title">Hambúrguer de Lentilha</h5>
             <p class="card-text">Essa receita usa lentilhas, um ingrediente barato e nutritivo, que pode substituir a
               carne e ajuda a economizar, além de aproveitar sobras de vegetais que você tenha em casa.</p>
-            <a href="#" class="btn fundo-cor-especial">Veja a receita</a>
+            <a href="#" class="btn fundo-cor-especial" id="openModalHamburguer">Veja a receita</a>
           </div>
-        </article>
+        </article> -->
 
       </div>
 
@@ -167,7 +165,7 @@
 
   </main>
 
-  <!-- Modal -->
+  <!-- Modal Contato -->
   <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -202,14 +200,16 @@
     </div>
   </div>
 
+  <!-- Modal receitas-->
+  <div id="modalContainer"></div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
+  <script src="js/modals.js"></script>
 
 </body>
 
