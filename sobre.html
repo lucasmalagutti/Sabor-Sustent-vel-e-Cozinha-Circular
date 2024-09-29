@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sobre.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+
+<body class="py-4">
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand fonte-titulo" style="color: darkred" href="#">Sabor Sustentável&Cozinha Circular</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">iníco <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">quem somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="objetivo">
+                <h2>Objetivo do Projeto</h2>
+                <p class="text-justify">
+                    O objetivo principal do projeto é criar uma plataforma acessível e atrativa que ofereça receitas
+                    focadas
+                    no
+                    reaproveitamento de alimentos, ajudando os usuários a economizarem dinheiro e a melhorar sua saúde
+                    através
+                    de uma alimentação equilibrada.
+                    O site pretende ser uma fonte de inspiração e informação para aqueles que desejam adotar um estilo
+                    de
+                    vida
+                    mais sustentável e saudável.
+                </p>
+            </section>
+
+
+            <section id="integrantes">
+                <h2>Integrantes do Grupo</h2>
+                <div class="d-flex flex-wrap">
+                    <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/eu.jpg" class="card-img-top card-posicao-imagem" alt="homem pardo, cabelo preto">
+                        <div class="card-body">
+                            <h5 class="card-title">Lucas Malagutti</h5>
+                            <p class="card-text">O mais lindo</p>
+                            <div>
+                                <a href="https://www.linkedin.com/in/lucas-malagutti-1a48b62a6/"
+                                    target="_blank">LinkedIn</a>
+                                <a href="https://github.com/lucasmalagutti" target="_blank">GitHub</a>
+
+                            </div>
+                    </article>
+                    <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/danilo.jfif" class="card-img-top card-posicao-imagem"
+                            alt="homem branco de bigode com boné">
+                        <div class="card-body">
+                            <h5 class="card-title">Danilo Martins</h5>
+                            <p class="card-text">Bigode grosso</p>
+                            <div>
+                                <a href="https://www.linkedin.com/in/danilo-de-souza-martins/"
+                                    target="_blank">LinkedIn</a>
+                                <a href="https://github.com/DanSmaR" target="_blank">GitHub</a>
+
+                            </div>
+                    </article>
+                    <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                        <img src="img/felipe.jfif" class="card-img-top card-posicao-imagem"
+                            alt="homem branco, cabelo loiro">
+                        <div class="card-body">
+                            <h5 class="card-title">Felipe Pretto</h5>
+                            <p class="card-text">Que é branco</p>
+                            <div>
+                                <a href="https://www.linkedin.com/in/felipe-pretto/" target="_blank">LinkedIn</a>
+                                <a href="#" target="_blank">GitHub</a>
+
+                            </div>
+                    </article>
+
+                </div>
+            </section>
+
+        </div>
+        <footer class="bg-secondary p-3">
+            <p class="text-light m-0 text-center">contato: <a class="text-light"
+                    href="mailto:sabor.cozinhacircular@gmail.com.br">sabor.cozinhacircular@gmail.com.br</a></p>
+        </footer>
+    </main>
+    <!-- Modal Contato -->
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nome completo</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Insira seu nome completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de e-mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Deixe seu comentário</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Insira aqui seu comentário"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn fundo-cor-especial">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
